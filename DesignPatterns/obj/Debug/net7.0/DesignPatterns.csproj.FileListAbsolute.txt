@@ -1,0 +1,15 @@
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/bin/Debug/net7.0/DesignPatterns
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/bin/Debug/net7.0/DesignPatterns.deps.json
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/bin/Debug/net7.0/DesignPatterns.runtimeconfig.json
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/bin/Debug/net7.0/DesignPatterns.dll
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/bin/Debug/net7.0/DesignPatterns.pdb
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.csproj.AssemblyReference.cache
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.AssemblyInfoInputs.cache
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.AssemblyInfo.cs
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.csproj.CoreCompileInputs.cache
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.dll
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/refint/DesignPatterns.dll
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.pdb
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/DesignPatterns.genruntimeconfig.cache
+/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/obj/Debug/net7.0/ref/DesignPatterns.dll

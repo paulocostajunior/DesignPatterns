@@ -3,7 +3,7 @@ using DesignPatterns.Specification.PlayerSpecification;
 
 var playerValidator = new PlayerFirstNameRule().And(new PlayerLastNameRule());
 
-var playerId = 3;
+var playerId = 1;
 
 var player = InMemoryPlayerRepository.GetPlayerById(playerId);
 

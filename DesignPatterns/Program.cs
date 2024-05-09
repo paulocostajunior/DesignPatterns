@@ -1,16 +1,41 @@
 ﻿using DesignPatterns.Repository.LocalRepository;
 using DesignPatterns.Specification.PlayerSpecification;
+using DesignPatterns.Template.PizzaExample;
 
-var playerValidator = new PlayerFirstNameRule().And(new PlayerLastNameRule());
+TestSpecification();
 
-var playerId = 1;
+Console.WriteLine('\n');
 
-var player = InMemoryPlayerRepository.GetPlayerById(playerId);
+TestTemplateMethod();
 
-ArgumentNullException.ThrowIfNull(player);
+static void TestSpecification()
+{
+    Console.WriteLine("== Testing Specification ==");
 
-var isPlayerValid = playerValidator.IsStatisfiedBy(player);
+    var playerValidator = new PlayerFirstNameRule().And(new PlayerLastNameRule());
 
-var playerState = isPlayerValid ? "valid" : "invalid";
+    var playerId = 1;
 
-Console.WriteLine($"The player {player.DisplayName} is {playerState}");
+    var player = InMemoryPlayerRepository.GetPlayerById(playerId);
+
+    ArgumentNullException.ThrowIfNull(player);
+
+    var isPlayerValid = playerValidator.IsStatisfiedBy(player);
+
+    var playerState = isPlayerValid ? "valid" : "invalid";
+
+    Console.WriteLine($"The player {player.DisplayName} is {playerState}");
+}
+
+static void TestTemplateMethod()
+{
+    Console.WriteLine("= Testing TemplateMethod ==");
+
+    var pizzaBakingService = new PizzaBakingService();
+    pizzaBakingService.Prepare();
+
+    Console.WriteLine("======");
+
+    var coldVeggiePizzaBakingService = new ColdVeggiePizzaBakingService();
+    coldVeggiePizzaBakingService.Prepare();
+}

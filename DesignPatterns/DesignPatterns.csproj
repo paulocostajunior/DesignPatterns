@@ -13,6 +13,9 @@
     <None Remove="Entities\" />
     <None Remove="Repository\" />
     <None Remove="Repository\InMemoryRepository\" />
+    <None Remove="Template\" />
+    <None Remove="Template\PizzaExample\" />
+    <None Remove="Template\PizzaExample\Inheritance\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Specification\" />
@@ -20,5 +23,8 @@
     <Folder Include="Entities\" />
     <Folder Include="Repository\" />
     <Folder Include="Repository\InMemoryRepository\" />
+    <Folder Include="Template\" />
+    <Folder Include="Template\PizzaExample\" />
+    <Folder Include="Template\PizzaExample\Inheritance\" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Repository.LocalRepository;
 using DesignPatterns.Specification.PlayerSpecification;
 using DesignPatterns.Template.PizzaExample;
+using DesignPatterns.Template.TransactionProcessorExample;
 
 TestSpecification();
 
@@ -8,7 +9,11 @@ Console.WriteLine('\n');
 
 TestTemplateMethod();
 
-static void TestSpecification()
+Console.WriteLine('\n');
+
+TestDepositTransactionTemplateMethod();
+
+void TestSpecification()
 {
     Console.WriteLine("== Testing Specification ==");
 
@@ -27,7 +32,7 @@ static void TestSpecification()
     Console.WriteLine($"The player {player.DisplayName} is {playerState}");
 }
 
-static void TestTemplateMethod()
+void TestTemplateMethod()
 {
     Console.WriteLine("= Testing TemplateMethod ==");
 
@@ -38,4 +43,11 @@ static void TestTemplateMethod()
 
     var coldVeggiePizzaBakingService = new ColdVeggiePizzaBakingService();
     coldVeggiePizzaBakingService.Prepare();
+}
+
+void TestDepositTransactionTemplateMethod()
+{
+    var transactionProcessor = new DepositTransactionProcessor();
+
+    transactionProcessor.ProcessTransaction();
 }

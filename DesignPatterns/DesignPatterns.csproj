@@ -16,6 +16,7 @@
     <None Remove="Template\" />
     <None Remove="Template\PizzaExample\" />
     <None Remove="Template\PizzaExample\Inheritance\" />
+    <None Remove="Template\TransactionProcessorExample\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Specification\" />
@@ -26,5 +27,6 @@
     <Folder Include="Template\" />
     <Folder Include="Template\PizzaExample\" />
     <Folder Include="Template\PizzaExample\Inheritance\" />
+    <Folder Include="Template\TransactionProcessorExample\" />
   </ItemGroup>
 </Project>

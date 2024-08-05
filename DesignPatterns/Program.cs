@@ -25,7 +25,7 @@ void TestSpecification()
 
     ArgumentNullException.ThrowIfNull(player);
 
-    var isPlayerValid = playerValidator.IsStatisfiedBy(player);
+    var isPlayerValid = playerValidator.IsSatisfiedBy(player);
 
     var playerState = isPlayerValid ? "valid" : "invalid";
 

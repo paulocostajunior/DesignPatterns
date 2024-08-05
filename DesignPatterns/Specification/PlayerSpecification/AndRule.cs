@@ -11,9 +11,9 @@
             _right= right;
         }
 
-        public override bool IsStatisfiedBy(T model)
+        public override bool IsSatisfiedBy(T model)
         {
-            return _left.IsStatisfiedBy(model) && _right.IsStatisfiedBy(model);
+            return _left.IsSatisfiedBy(model) && _right.IsSatisfiedBy(model);
         }
     }
 }

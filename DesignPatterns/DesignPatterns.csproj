@@ -17,6 +17,8 @@
     <None Remove="Template\PizzaExample\" />
     <None Remove="Template\PizzaExample\Inheritance\" />
     <None Remove="Template\TransactionProcessorExample\" />
+    <None Remove="RulesEngine\" />
+    <None Remove="Strategy\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Specification\" />
@@ -28,5 +30,7 @@
     <Folder Include="Template\PizzaExample\" />
     <Folder Include="Template\PizzaExample\Inheritance\" />
     <Folder Include="Template\TransactionProcessorExample\" />
+    <Folder Include="RulesEngine\" />
+    <Folder Include="Strategy\" />
   </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 {
 	public abstract class CompositeRule<T> : IRule<T>
 	{
-        public abstract bool IsStatisfiedBy(T model);
+        public abstract bool IsSatisfiedBy(T model);
 
         public CompositeRule<T> And(IRule<T> andModel)
         {

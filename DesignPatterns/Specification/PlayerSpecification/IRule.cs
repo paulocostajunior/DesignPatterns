@@ -2,6 +2,6 @@
 {
 	public interface IRule<in TModel>
 	{
-		public bool IsStatisfiedBy(TModel model);
+		public bool IsSatisfiedBy(TModel model);
 	}
 }

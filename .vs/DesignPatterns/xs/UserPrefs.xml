@@ -1,32 +1,27 @@
 ﻿<Properties StartupConfiguration="{4C04237B-C2A7-42B9-9EDE-D018F14C84FC}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/Template/PizzaExample/PizzaBakingServicePreparePizza.cs" relfile="DesignPatterns/Template/PizzaExample/PizzaBakingServicePreparePizza.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns/Specification/PlayerSpecification/AndRule.cs">
     <Files>
-      <File FileName="DesignPatterns/Program.cs" Line="6" Column="17" />
-      <File FileName="DesignPatterns/Entities/Player.cs" Line="2" Column="1" />
-      <File FileName="DesignPatterns/Repository/LocalRepository/PlayerRepository.cs" Line="5" Column="49" />
-      <File FileName="DesignPatterns/Specification/PlayerSpecification/IRule.cs" Line="5" Column="29" />
-      <File FileName="DesignPatterns/Specification/PlayerSpecification/CompositeRule.cs" Line="5" Column="44" />
-      <File FileName="DesignPatterns/Specification/PlayerSpecification/AndRule.cs" Line="15" Column="10" />
-      <File FileName="DesignPatterns/Specification/PlayerSpecification/PlayerNameRule.cs" Line="9" Column="20" />
-      <File FileName="DesignPatterns/Specification/PlayerSpecification/PlayerLastNameRule.cs" Line="9" Column="46" />
+      <File FileName="DesignPatterns/Entities/Customer.cs" Line="8" Column="13" />
+      <File FileName="DesignPatterns/RulesEngine/IDiscount.cs" Line="5" Column="19" />
+      <File FileName="DesignPatterns/RulesEngine/FirstTimeCustomerRule.cs" Line="18" Column="1" />
+      <File FileName="DesignPatterns/RulesEngine/PromotionalTimeCustomerRule.cs" Line="8" Column="41" />
+      <File FileName="DesignPatterns/Specification/PlayerSpecification/IRule.cs" Line="5" Column="28" />
+      <File FileName="DesignPatterns/Specification/PlayerSpecification/CompositeRule.cs" Line="9" Column="29" />
+      <File FileName="DesignPatterns/Specification/PlayerSpecification/AndRule.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DesignPatterns" expanded="True">
-            <Node name="DesignPatterns" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DesignPatterns PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

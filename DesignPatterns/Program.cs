@@ -3,15 +3,18 @@ using DesignPatterns.Specification.PlayerSpecification;
 using DesignPatterns.Template.PizzaExample;
 using DesignPatterns.Template.TransactionProcessorExample;
 
-TestSpecification();
+// TestSpecification();
 
-Console.WriteLine('\n');
+// Console.WriteLine('\n');
 
-TestTemplateMethod();
+// TestTemplateMethod();
 
-Console.WriteLine('\n');
+// Console.WriteLine('\n');
 
-TestDepositTransactionTemplateMethod();
+// TestDepositTransactionTemplateMethod();
+
+var chainOfResponsibility = new ChainOfResponsibility();
+chainOfResponsibility.Execute();
 
 void TestSpecification()
 {

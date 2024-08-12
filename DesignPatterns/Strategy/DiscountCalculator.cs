@@ -9,7 +9,7 @@
             var discount = FindClientType(isNewClient);
 
             discount.CalculateDiscount();
-		}
+	    }
 
         public static IDiscount FindClientType(bool isNewClient)
         {

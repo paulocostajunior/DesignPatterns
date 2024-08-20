@@ -4,17 +4,20 @@ using DesignPatterns.Template.PizzaExample;
 using DesignPatterns.Template.TransactionProcessorExample;
 
 // TestSpecification();
-
 // Console.WriteLine('\n');
 
 // TestTemplateMethod();
-
 // Console.WriteLine('\n');
 
 // TestDepositTransactionTemplateMethod();
 
-var chainOfResponsibility = new ChainOfResponsibility();
-chainOfResponsibility.Execute();
+// Console.WriteLine('\n');
+// var chainOfResponsibility = new ChainOfResponsibility();
+// chainOfResponsibility.Execute();
+// Console.WriteLine('\n');
+
+var adapterTest = new DesignPatterns.Adapter.Executable();
+adapterTest.Run();
 
 void TestSpecification()
 {

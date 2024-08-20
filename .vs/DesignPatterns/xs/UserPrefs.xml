@@ -1,30 +1,45 @@
-﻿<Properties StartupConfiguration="{4C04237B-C2A7-42B9-9EDE-D018F14C84FC}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.ItemProperties.DesignPatterns PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns/Strategy/DiscountCalculator.cs">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{4C04237B-C2A7-42B9-9EDE-D018F14C84FC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPatterns/ChainOfResponsibility/ChainOfResponsibility.cs">
     <Files>
-      <File FileName="DesignPatterns/Entities/Customer.cs" />
+      <File FileName="DesignPatterns/Entities/Customer.cs" Line="1" Column="1" />
       <File FileName="DesignPatterns/RulesEngine/FirstTimeCustomerRule.cs" />
       <File FileName="DesignPatterns/RulesEngine/PromotionalTimeCustomerRule.cs" />
       <File FileName="DesignPatterns/Specification/PlayerSpecification/IRule.cs" />
       <File FileName="DesignPatterns/Specification/PlayerSpecification/CompositeRule.cs" />
-      <File FileName="DesignPatterns/Specification/PlayerSpecification/AndRule.cs" Line="9" Column="10" />
-      <File FileName="DesignPatterns/Program.cs" Line="35" Column="26" />
-      <File FileName="DesignPatterns/Template/PizzaExample/ColdVeggiePizzaBakingService.cs" Line="1" Column="1" />
-      <File FileName="DesignPatterns/Strategy/Discount.cs" Line="12" Column="4" />
-      <File FileName="DesignPatterns/Strategy/IDiscount.cs" Line="8" Column="1" />
+      <File FileName="DesignPatterns/Specification/PlayerSpecification/AndRule.cs" />
+      <File FileName="DesignPatterns/Program.cs" Line="16" Column="39" />
+      <File FileName="DesignPatterns/Template/PizzaExample/ColdVeggiePizzaBakingService.cs" />
+      <File FileName="DesignPatterns/Strategy/IDiscount.cs" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/ChainOfResponsibility.cs" Line="12" Column="41" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/Entities/Product.cs" Line="1" Column="1" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/Entities/Currency.cs" Line="1" Column="1" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/Entities/Category.cs" Line="7" Column="10" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/Entities/Currency.cs" Line="3" Column="25" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/DiscountApproval.cs" Line="1" Column="1" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/CategoryDiscountApproval.cs" Line="11" Column="30" />
+      <File FileName="DesignPatterns/ChainOfResponsibility/PriceDiscountApproval.cs" Line="24" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="DesignPatterns" expanded="True">
+            <Node name="DesignPatterns" expanded="True">
+              <Node name="ChainOfResponsibility" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/paulocostajr/Projects/DesignPatterns/DesignPatterns/Template/PizzaExample/PizzaBakingServicePreparePizza.cs" relfile="DesignPatterns/Template/PizzaExample/PizzaBakingServicePreparePizza.cs" line="15" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DesignPatterns PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

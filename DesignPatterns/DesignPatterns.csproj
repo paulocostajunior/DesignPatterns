@@ -20,6 +20,7 @@
     <None Remove="RulesEngine\" />
     <None Remove="Strategy\" />
     <None Remove="ChainOfResponsibility\Entities\" />
+    <None Remove="Adapter\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Specification\" />
@@ -34,5 +35,6 @@
     <Folder Include="RulesEngine\" />
     <Folder Include="Strategy\" />
     <Folder Include="ChainOfResponsibility\Entities\" />
+    <Folder Include="Adapter\" />
   </ItemGroup>
 </Project>
